@@ -47,6 +47,7 @@
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="lineage"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
   <project path="packages/services/BuiltInPrintService" name="LineageOS/android_packages_services_BuiltInPrintService" remote="lineage" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="lineage-24.0" remote="lineageos" />
 
   <!-- QCOM additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" revision="lineage-24.0" remote="lineage" />
@@ -140,4 +141,6 @@
   <!-- system -->
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" remote="lineage" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" remote="lineage" />
+  <project path="system/memory/libion" name="LineageOS/android_system_memory_libion" groups="pdk" remote="lineage" />
+  <project path="system/memory/libdmabufheap" name="LineageOS/android_system_memory_libdmabufheap" groups="pdk" remote="lineage" />
 </manifest>

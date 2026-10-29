@@ -19,7 +19,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/release" name="platform_build_release" remote="lumine" />
-  <project path="build/soong" name="platform_build_soong" remote="lumine" >
+  <project path="build/soong" name="aobuta-projectplatform_build_soong" remote="github" revision="camellia" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -29,7 +29,7 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="lumine" />
 
   <!-- device -->
-  <project path="device/lumine/sepolicy" name="platform_device_lumine_sepolicy" remote="lumine" />
+  <project path="device/lumine/sepolicy" name="aobuta-project/platform_device_lumine_sepolicy" remote="github" revision="camellia" />
 
   <!-- external -->
   <project path="external/ant-wireless/hidl" name="platform_external_ant-wireless_hidl" groups="qcom,qssi" remote="lumine" />
