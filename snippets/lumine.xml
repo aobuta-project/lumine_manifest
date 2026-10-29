@@ -19,7 +19,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/release" name="platform_build_release" remote="lumine" />
-  <project path="build/soong" name="aobuta-projectplatform_build_soong" remote="github" revision="camellia" >
+  <project path="build/soong" name="aobuta-project/platform_build_soong" remote="github" revision="camellia" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
