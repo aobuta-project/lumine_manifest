@@ -26,6 +26,9 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-2025" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
+  <!-- Hardware -->
+  <project path="hardware/lineage/generic-ims" name="LineageOS/android_hardware_lineage_generic-ims" revision="lineage-24.0" remote="lineage" />
+
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="coral" remote="lineage"/>
@@ -41,6 +44,7 @@
   <project path="packages/apps/Car/Settings" name="LineageOS/android_packages_apps_Car_Settings" remote="lineage" />
   <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="github" revision="17.0" />
   <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" remote="lineage"/>
+  <project path="packages/modules/ImsMedia" name="LineageOS/android_packages_modules_ImsMedia" groups="pdk" revision="lineage-24.0" remote="lineage" />
   <project path="packages/modules/Telephony" name="LineageOS/android_packages_modules_Telephony" remote="lineage"/>
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="lineage"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
